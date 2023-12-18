@@ -1,0 +1,6 @@
+﻿Animal,Air,Land,Water
+Monkey,0,1,0
+Penguin,0,0.5,0.5
+Platypus,0,0,1
+Robin,0.5,0.5,0
+Turtle,0,0.5,0.5

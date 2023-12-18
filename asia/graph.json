@@ -1,0 +1,42 @@
+[
+    {
+        "name": "VisitAsia",
+        "parents": [],
+        "values": ["Visit", "NoVisit"]
+    },
+    {
+        "name": "Smoking",
+        "parents": [],
+        "values": ["Smoking", "NoSmoking"]
+    },
+    {
+        "name": "Tuberculosis",
+        "parents": ["VisitAsia"],
+        "values": ["Present", "Absent"]
+    },
+    {
+        "name": "LungCancer",
+        "parents": ["Smoking"],
+        "values": ["Present", "Absent"]
+    },
+    {
+        "name": "Tb_or_Ca",
+        "parents": ["Tuberculosis", "LungCancer"],
+        "values": ["True", "False"]
+    },
+    {
+        "name": "XRay",
+        "parents": ["Tb_or_Ca"],
+        "values": ["Abnormal", "Normal"]
+    },
+    {
+        "name": "Bronchitis",
+        "parents": ["Smoking"],
+        "values": ["Present", "Absent"]
+    },
+    {
+        "name": "Dyspnea",
+        "parents": ["Tb_or_Ca", "Bronchitis"],
+        "values": ["True", "False"]
+    }
+]

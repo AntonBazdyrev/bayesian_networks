@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Animal",
+        "parents": [],
+        "values": ["Monkey", "Penguin", "Platypus", "Robin", "Turtle"]
+    },
+    {
+        "name": "Environment",
+        "parents": ["Animal"],
+        "values": ["Air", "Land", "Water"]
+    },
+    {
+        "name": "HasShell",
+        "parents": ["Animal"],
+        "values": ["True", "False"]
+    },
+    {
+        "name": "BearsYoungAs",
+        "parents": ["Animal"],
+        "values": ["Live", "Eggs"]
+    },
+    {
+        "name": "Class",
+        "parents": ["Animal"],
+        "values": ["Bird", "Mammal", "Reptile"]
+    },
+    {
+        "name": "WarmBlooded",
+        "parents": ["Class"],
+        "values": ["True", "False"]
+    },
+    {
+        "name": "BodyCovering",
+        "parents": ["Class"],
+        "values": ["Fur", "Feathers", "Scales"]
+    }
+]

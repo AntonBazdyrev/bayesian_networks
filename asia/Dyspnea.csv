@@ -1,0 +1,5 @@
+Tb_or_Ca,Bronchitis,True,False
+True,Present,0.9,0.1
+True,Absent,0.7,0.3
+False,Present,0.8,0.2
+False,Absent,0.1,0.9

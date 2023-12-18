@@ -1,0 +1,4 @@
+﻿Class,Fur,Feathers,Scales
+Bird,0,1,0
+Mammal,1,0,0
+Reptile,0,0,1

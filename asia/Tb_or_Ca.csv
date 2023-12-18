@@ -1,0 +1,5 @@
+Tuberculosis,LungCancer,True,False
+Present,Present,1,0
+Present,Absent,1,0
+Absent,Present,1,0
+Absent,Absent,0,1
